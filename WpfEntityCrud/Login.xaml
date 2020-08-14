@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfEntityCrud.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfEntityCrud"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Border Margin="30">
+        <StackPanel>
+            <Label Content="Login" HorizontalAlignment="Center" FontSize="30"/>
+            <Label Content="UserName" HorizontalAlignment="Center" FontSize="25"/>
+            <TextBox Name="txtUserName" FontSize="25"/>
+            <Label Content="Password" HorizontalAlignment="Center" FontSize="25"/>
+            <PasswordBox Name="txtPassword" FontSize="25"/>
+            <Button Name="Submitbtn" Click="Submitbtn_Click" FontSize="25" Content="Login" Margin="250 30"/>
+        </StackPanel>
+    </Border>
+
+</Window>
